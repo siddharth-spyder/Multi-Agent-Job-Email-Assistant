@@ -1,0 +1,18 @@
+pandas==2.2.2
+numpy==1.26.4
+openpyxl==3.1.2
+streamlit
+
+# Gmail API
+google-api-python-client==2.149.0
+google-auth==2.34.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+beautifulsoup4==4.12.3
+
+# Transformers + Zero-shot classification
+transformers==4.44.2
+accelerate==0.34.2
+tokenizers==0.19.1
+# CPU-only PyTorch (works on Mac Intel & Apple Silicon)
+torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
